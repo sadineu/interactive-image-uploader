@@ -62,7 +62,7 @@ public class ImageServiceImpl implements ImageService {
             image.setImageByte(Files.readAllBytes(path));
         }
         List<Image>uploadedImages = images.stream()
-                .filter(image -> image.getImageByte() != null)
+                .filter(image -> image.getThumbByte() != null)
                 .collect(Collectors.toList());
         return uploadedImages;
     }
