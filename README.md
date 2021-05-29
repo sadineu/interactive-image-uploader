@@ -34,5 +34,10 @@
   4. Go to your Angular project directory run by this command  ng serve // For default port 
   
   
-  
+  Back-end endpoint high level explanation :
+   we have two endpoints 
+      1. Get Api : api/v1/images/get   to get all images 
+      2. Post Api : api/v1/images/upload  to upload multiple images
+      
+      
   
