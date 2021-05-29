@@ -27,7 +27,8 @@
   ######################### For Front-end ##########
   1. Install nodejs from this link https://nodejs.org/en/
   2. Open cmd and run this command   npm install -g @angular/cli   to install Angular CLI
-  3. Please intigrate websocket by these two command
+  3. Go to project directory and run the command npm install
+  4. Please intigrate websocket by these two command(Optional)
       npm install @stomp/stompjs
       npm install sockjs-client
       
